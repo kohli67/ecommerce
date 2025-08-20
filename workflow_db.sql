@@ -133,13 +133,4 @@ INSERT INTO request_stakeholders (request_id, user_id, role_id)
 VALUES (99, 2, 2);
 
 
-USE workflow_db;
-DROP TABLE IF EXISTS RequestStakeholders;
-DROP TABLE IF EXISTS ProcessUsers;
-DROP TABLE IF EXISTS Requests;
-DROP TABLE IF EXISTS Processes;
-DROP TABLE IF EXISTS Users;
-DROP TABLE IF EXISTS Roles;
 
-
-DELETE FROM SequelizeMeta;
